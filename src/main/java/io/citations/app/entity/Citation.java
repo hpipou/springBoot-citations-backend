@@ -10,7 +10,7 @@ import javax.persistence.*;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Citations {
+public class Citation {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
